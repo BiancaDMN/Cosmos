@@ -1,0 +1,670 @@
+#container{
+    width: 1920px;
+    height: 1710px;
+    top: -901px;
+    left: -933px;
+    background: #141922;
+    background: url("Layer 0.png") no-repeat fixed;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+#header{
+    width: 1920px;
+    height:60px;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 96.49%;
+    background: #141922;
+    position: absolute;
+    display: flex;
+    align-content: center;
+}
+
+#cosmosLogo{
+    width: 154px;
+    height: 41px;
+    top: 8.99px;
+    left: 437.84px;
+    position: absolute;
+}
+
+#cosmos{
+    left: 22.8%;
+    right: 69.18%;
+    top: 0.53%;
+    bottom: 97.08%;
+    font-size: 35.861px;
+    line-height: 41px;
+    color: #A9B5CC;
+}
+
+.char1, .char3, .char4, .char6{
+    font-weight: 700;
+    font-size: 35.86px;
+    line-height: 41.2px;
+}
+
+#homeLogo{
+    width: 43px;
+    height: 18px;
+    top: 20.74px;
+    left: 655.84px;
+    position: absolute;
+    display: flex;
+    gap: 20px;
+}
+#house{
+    position: absolute;
+    left: 32.92%;
+    right: 65.99%;
+    top: 1.11%;
+    bottom: 97.66%;
+}
+
+#home{
+    width: 43px;
+    height: 18px;
+    padding-left: 25px;
+    padding-top: 3px;
+    left: 34.16%;
+    right: 63.6%;
+    top: 1.21%;
+    bottom: 97.73%;
+    position: absolute;
+    font-size: 15.729px;
+    line-height: 18px;
+    color: #A9B5CC;
+}
+
+#destinationsLogo{
+    width: 91px;
+    height: 18px;
+    top: 20.74px;
+    left: 763.84px;
+    position: absolute;
+
+}
+
+#planet{
+    position: absolute;
+    left: 38.65%;
+    right: 60.31%;
+    top: 1.17%;
+    bottom: 97.66%;
+}
+
+#destinations{
+    position: absolute;
+    left: 39.78%;
+    right: 55.48%;
+    top: 1.21%;
+    bottom: 97.73%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.729px;
+    line-height: 18px;
+    color: #A9B5CC;
+    padding-left: 25px;
+    padding-top: 3px;
+    
+}
+
+#rocketLogo{
+    width: 79px;
+    height: 18px;
+    top: 20.74px;
+    left: 918.84px;
+    position: absolute;
+}
+
+#rocket{
+    position: absolute;
+    left: 46.41%;
+    right: 52.34%;
+    top: 1.11%;
+    bottom: 97.49%;
+}
+
+#spaceships{
+    position: absolute;
+    left: 47.86%;
+    right: 48.03%;
+    top: 1.21%;
+    bottom: 97.73%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.729px;
+    line-height: 18px;
+    color: #A9B5CC;
+    padding-left: 25px;
+    padding-top: 3px;
+}
+
+#ShoppingCartLogo{
+    Width: 9px;
+    height: 18px;
+    top: 20.74px;
+    left: 1488px;
+    position: absolute;
+}
+
+#cart{
+    position: absolute;
+    left: 75.94%;
+    right: 22.76%;
+    top: 0.94%;
+    bottom: 97.6%;
+
+}
+
+#shoppingCart{
+    position: absolute;
+    left: 77.5%;
+    right: 22.03%;
+    top: 1.21%;
+    bottom: 97.73%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15.729px;
+    line-height: 18px;
+    text-align: right;
+    color: #A9B5CC;
+    padding-left: 30px;
+    padding-top: 3px;
+}
+
+#leftArrow{
+    width: 53.18px;
+    height: 50.14px;
+    position: absolute;
+    /*left: 19.3%;*/
+    right: 77.93%;
+    /*top: 16.91%;*/
+    bottom: 80.16%;
+    background: #272B35;
+    border: 1px solid #181D26;
+    top: 289.12px;
+    left: 370.55px;
+}
+
+#firstArrow{
+    position: absolute;
+    /*left: 21.05%;*/
+    left: 28%;
+    right: 77.96%;
+    top: 16%;
+    bottom: 79.79%;
+    line-height: 72px;
+    color: #A9B5CC;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+#centerContainer{
+    width: 1057px;
+    height: 395.13px;
+    position: absolute;
+   /* left: 22.89%;*/
+    right: 22.06%;
+    /*top: 6.98%;*/
+    top: 119.44px;
+    left: 439.5px;
+    bottom: 69.91%;
+    background: #2D333D;
+    border: 1px solid #181D26;
+}
+
+#saturn{
+    width: 736px;
+    height: 395.13px;
+    position: absolute;
+    background: url("Layer 2.png") no-repeat;
+    /*top: 119px;
+    left: 441px;*/
+    /*left: 22.97%;
+    right: 38.7%;
+    top: 6.96%;
+    bottom: 68.83%;*/
+}
+#rightArrow{
+    width: 53.18px;
+    height: 50.14px;
+    top: 289.12px;
+    left: 1512.52px;
+    right: 18.45%;
+    bottom: 80.16%;
+    background: #272B35;
+    border: 1px solid #181D26;
+    position: absolute;
+}
+
+#secondArrow{
+    position: absolute;
+    /*left: 79.79%;*/
+    left: 35%;
+    right: 19.22%;
+    top: 16%;
+    /*top: 273.52px;
+    left: 1532px;*/
+    bottom: 79.79%;
+    line-height: 72px;
+    color: #A9B5CC;
+}
+
+#enceladus{
+    width: 198px;
+    height: 79px;
+    left: 2%;
+    top: 1%;
+    /*left: 23.85%;*/
+    right: 65.83%;
+    /*top: 8.13%;*/
+    bottom: 87.25%;
+    color:#A9B5CC;
+    position: absolute;
+    font-family: 'Ubuntu';
+    font-size: 16px;
+    line-height: 18px;
+}
+
+#title{
+    width: 137px;
+    height: 34px;
+    position: absolute;
+    /*left: 62.16%;*/
+    left: 71%;
+    right: 30.71%;
+    /*top: 7.91%;*/
+    top: 4%;
+    bottom: 90.1%;
+    font-size: 29.711px;
+    line-height: 34px;
+    color: #A9B5CC;
+}
+
+#title::first-letter{
+    font-weight: 700;
+}
+
+#sarurnInformations{
+    width: 209px;
+    height: 179px;
+    position: absolute;
+    /*left: 62.19%;*/
+    left: 71%;
+    right: 26.93%;
+    top: 16%;
+    /*top: 10.7%;*/
+    bottom: 78.83%;
+    font-size: 16px;
+    line-height: 18px;
+    color: #A9B5CC;
+}
+
+#purchase{
+    width: 287.06px;
+    height: 71.99px;
+    position: absolute;
+    /*left: 62.16%;*/
+    left: 71%;
+    top: 78.5%;
+    right: 22.89%;
+    /*top: 24.94%;*/
+    bottom: 70.85%;
+    background: #272B35;
+    border: 1px solid #181D26;
+}
+
+#price{
+    width: 138px;
+    height: 35px;
+    position: absolute;
+    /*left: 62.67%;*/
+    left: 3%;
+    right: 30.15%;
+    /*top: 25.45%;*/
+    top: 10%;
+    bottom: 72.5%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30.895px;
+    line-height: 35px;
+    color: #A9B5CC;
+}
+
+#ticket{
+    width: 89px;
+    height: 16px;
+    position: absolute;
+    /*left: 62.75%;*/
+    left: 3%;
+    right: 32.61%;
+    /*top: 27.26%;*/
+    top: 60%;
+    bottom: 71.81%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13.526px;
+    line-height: 16px;
+    color: #A9B5CC;
+}
+
+#purchaseButton{
+    width: 93.25px;
+    height: 32.18px;
+    position: absolute;
+    /*left: 71.66%;*/
+    left: 63%;
+    right: 23.48%;
+    top: 26.22%;
+    bottom: 71.9%;
+    background: #46C351;
+    font-family: 'Ubuntu';
+    line-height: 18px;
+    font-size: 16px;
+}
+
+#life{
+    /*background-color: lightcoral;*/
+    position: absolute;
+    width: 1057px;
+    height: 120px;
+    left: 439.5px;
+    top: 585px;
+    display: flex;
+    flex-direction: row;
+    /*justify-content: space-between;  */
+}
+
+#pack{
+    width: 51px;
+    height: 28px;
+    position: absolute;
+    /*left: 23.66%;*/
+    left: 2%;
+    right: 73.69%;
+    /*top: 39.54%;*/
+    top: 100px;
+    bottom: 58.83%;
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    line-height: 28px;
+    color: #A9B5CC;
+}
+
+#pack::first-letter{
+    font-weight: 700;
+}
+
+#thirdArrow{
+    position: absolute;
+    /*left: 31.77%;*/
+    left: 15%;
+    right: 67.24%;
+    top: 35.73%;
+    bottom: 60.06%;
+    line-height: 72px;
+    color: #A9B5CC;
+}
+
+#flyLogo{
+    /*width: 83px;
+    height: 83px;*/
+    position: absolute;
+    /*left: 37.14%;*/
+    left: 23%;
+    right: 58.54%;
+    /*top: 34.15%;*/
+    top: 7%;
+    bottom: 60.99%;
+}
+
+#fly{
+    width: 29px;
+    height: 28px;
+    position: absolute;
+    /*left: 38.32%;*/
+    left: 10%;
+    right: 60.17%;
+    /*top: 39.54%;*/
+    top: 100px;
+    bottom: 58.83%;
+    font-family: 'Ubuntu';
+    font-size: 24px;
+    line-height: 28px;
+    color: #A9B5CC;
+}
+
+#fly::first-letter{
+    font-weight: 700;
+}
+
+#fourthArrow{
+    position: absolute;
+    /*left: 31.77%;*/
+    left: 35%;
+    right: 67.24%;
+    top: 35.73%;
+    bottom: 60.06%;
+    line-height: 72px;
+    color: #A9B5CC;
+}
+
+#leaf{
+    position: absolute;
+    /*left: 50.68%;*/
+    left: 45%;
+    right: 44.17%;
+    /*top: 33.51%;*/
+    top: 1%;
+    bottom: 60.7%;
+}
+
+#live{
+    width: 39px;
+    height: 28px;
+    position: absolute;
+    /*left: 52.19%;*/
+    left: 48%;
+    right: 45.77%;
+    /*top: 39.54%;*/
+    top: 110px;
+    bottom: 58.83%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-size: 24px;
+    line-height: 28px;
+    color: #A9B5CC;
+}
+
+#live::first-letter{
+    font-weight: 700;
+}
+
+#fifthArrow{
+    position: absolute;
+    left: 58.75%;
+    right: 40.26%;
+    top: 35.73%;
+    bottom: 60.06%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 63.07px;
+    line-height: 72px;
+    color: #A9B5CC;
+}
+
+#enjoyWorld{
+    width: 294px;
+    height: 120px;
+    position: absolute;
+    /*left: 62.66%;*/
+    left: 72%;
+    right: 22.03%;
+    /*top: 34.21%;*/
+    top: 2%;
+    bottom: 58.77%;
+    background: #272B35;
+    border: 1px solid #181D26;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#enjoy{
+    width: 294px;
+    height: 59px;
+    position: absolute;
+    top:15%;
+    /*left: 65.89%;
+    right: 25.31%;
+    top: 35.38%;
+    bottom: 61.17%;*/
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 51.223px;
+    line-height: 59px;
+    color: #A9B5CC;
+}
+
+#world{
+    width: 294px;
+    height: 26px;
+    position: absolute;
+    top: 60%;
+    /*left: 65.94%;
+    right: 25.68%;
+    top: 38.55%;
+    bottom: 59.93%;*/
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 22.66px;
+    line-height: 26px;
+    color: #A9B5CC;
+}
+
+#packageContainer{
+    position: absolute;
+    left: 23.5%;
+}
+
+#package{
+    width: 200px;
+    height: 34px;
+    position: absolute;
+    /*left: 22.78%;*/
+    left: 23.1%;
+    right: 68.36%;
+    /*top: 45.4%;*/
+    top: 800px;
+    bottom: 52.62%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-size: 29.711px;
+    line-height: 34px;
+    color: #A9B5CC;
+}
+
+#package::first-letter{
+    font-weight: 700;
+}
+
+#hr{
+    width: 529px;
+    height: 1px;
+    position: absolute;
+    left: 22.81%;
+    right: 49.64%;
+    /*top: 48.19%;*/
+    top: 850px;
+    bottom: 51.75%;
+    background: #3A424E;;
+}
+
+#description{
+    width: 699px;
+    height: 386px;
+    position: absolute;
+    left: 22.86%;
+    right: 40.73%;
+    /*top: 50.29%;*/
+    top: 880px;
+    bottom: 27.13%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 25px;
+    color: #A9B5CC;
+}
+
+#checkoutButton{
+    width: 111px;
+    height: 32px;
+    position: absolute;
+    left: 22.86%;
+    right: 71.35%;
+    /*top: 78.6%;*/
+    top: 1370px;
+    bottom: 19.53%;
+    background: #46C351;
+    line-height: 18px;
+}
+
+#footer{
+    width: 1920px;
+    height: 294px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    /*top: 88.36%;*/
+    top:1511px;
+    bottom: -5.56%;
+    background: #141922;
+}
+
+#copyright{
+    width: 250px;
+    height: 14px;
+    /*top: 1549.5px;*/
+    top: 50px;
+    right: 64.06%;
+    /*left: 440px;*/
+    left: 22%;
+    bottom: 8.57%;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12.5px;
+    line-height: 14px;
+    position:absolute;
+    color: #A9B5CC;
+}
+
+#data{
+    width: 348px;
+    height: 43px;
+    /*top: 1585px;*/
+    /*left: 22.92%;*/
+    left: 22%;
+    right: 58.96%;
+    /*top: 92.69%;*/
+    top: 100px;
+    bottom: 4.8%;
+    position: absolute;
+    font-family: 'Ubuntu';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 12.5px;
+    line-height: 14px;
+
+    color: #A9B5CC;
+}
