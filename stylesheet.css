@@ -1,0 +1,213 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background-color: #212529;
+    font-family: 'Ubuntu', sans-serif;
+
+    /* background: url("Layer 0.png") no-repeat fixed; */
+    /* background-size: 100%; */
+}
+
+header{
+    gap: 378px;
+}
+
+#headerCart{
+    right: 10px;
+}
+
+#logo{
+    font-size: 35px;
+}
+
+#main{
+    line-height: 18px;
+}
+
+#left{
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+#slider{
+    width: 1300px;
+    padding: 20px;
+    margin-left: 120px;
+    display:flex;
+    gap: 20px;
+}
+
+.package{
+    background-color: #272B35ed;
+    border-radius: 15px;
+}
+
+#satelliteInformations{
+    left: 0;
+    top: 0;
+}
+
+#purchaseInformations{
+    width: 290px;
+    left: 10px;
+    right: 10px;
+    bottom: 10px;
+    padding: 10px;
+    display: flex;
+    align-items: flex-end;
+    gap: 30px;
+}
+
+#offer{
+    width: 80%;
+    margin-left: 190px;
+    display: flex;
+    gap: 75px;
+}
+
+#enjoyWorld{
+    width: 260px;
+    height: 120px;
+    margin-bottom: 0;
+    line-height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#world{
+    margin: 0;
+    font-size: 21px;
+}
+
+#enjoy{
+    font-size: 51px;
+}
+
+#packageContainer{
+    width: 50%;
+    margin-left: 195px;
+    line-height: 25px;
+}
+
+footer{
+    height: 160px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 12px;
+}
+
+#copyright{
+    width: 320px;
+    margin-left: 135px;
+}
+
+#headerOptions, #headerCart{
+    padding: 5px;
+    margin-left: 128px;
+    gap: 80px;
+}
+
+header, #headerOptions, #headerCart, footer{
+    background-color: #141922;
+}
+
+header, #headerOptions, #headerCart, #slider, .package, #purchaseInformations, #offer{
+    display: flex;
+    flex-direction: row;
+}
+
+.char1, .char3, .char4, .char6, #price, #enjoy {
+    font-weight: 700;
+}
+
+#logo, #homeOption, #destinationOption, #spaceshipsOption, #shoppingCartOption, #satelliteInformations, #description, #totalCost, #pack, #fly, #live, #enjoyWorld, #packageContainer, footer{
+    color: #A9B5CC;
+}
+
+#logo, #home, #destinations, #spaceships, #shoppingCart{
+    margin-bottom: 0;
+    padding: 5px;
+}
+
+#logo, #world, #enjoy{
+    text-transform: uppercase;
+}
+
+#logo, #homeOption, #destinationOption, #spaceshipsOption, #shoppingCartOption, #slider, #offer, #enjoyWorld{
+    display: flex;
+    align-items: center;
+}
+
+#left, #arrow{
+    width: 50px; 
+    height: 50px;
+}
+
+#left:hover, #arrow:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+}
+
+#left, #arrow, #enjoyWorld{
+    background-color: #2D333D;
+}
+
+#left, #informations, #packageInformations, #description, #arrow, #offer, #pack, #fly, #live, #enjoyWorld, #packageContainer, footer{
+    padding: 10px;
+}
+
+#left, .package, #purchaseInformations, #arrow, #enjoyWorld{
+    border: 1px solid #181D26;
+}
+
+#satellite, #packageInformations{
+    position: relative;
+}
+
+#satelliteInformations, #purchaseInformations{
+    position: absolute;
+}
+
+#enceladus, #titan, #mimas{
+    width: 736px;
+    height: 395px;
+    border-radius: 15px 0 0 15px;
+}
+
+#title, #price, #pfl{
+    font-size: 30px;
+}
+
+#description::first-letter, #pack::first-letter, #fly::first-letter, #live::first-letter, #pfl::first-letter {
+    font-weight: 700;
+}
+
+#purchaseButton, #checkoutButton{
+    background-color: #46C351;
+    border-color: #46C351;
+}
+
+#purchaseButton:hover, #checkoutButton:hover{
+    background-color: green;
+    border-color: green;
+
+    /* background-color: #157347; */
+    /* border-color: #157347; */
+}
+
+#pack, #fly, #live, #enjoyWorld{
+    font-size: 24px;
+}
